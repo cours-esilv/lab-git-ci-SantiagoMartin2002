@@ -1,5 +1,4 @@
 name: CI
-run-name: ${{ github.actor }} is executing the CI workflow!
 on: [push, pull_request]
 jobs:
   build:
